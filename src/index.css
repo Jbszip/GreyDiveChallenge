@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.contenido{
+  white-space: pre-line;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.corte{
+  line-break: strict;
+  white-space: pre-line;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ol{
+  list-style:decimal;
+}
