@@ -10,9 +10,9 @@ export default function Listado() {
       </h1>
       <div className="flex flex-wrap justify-center gap-8">
         {data.map((res) => {
-          console.log(res);
           return (
             <ItemCard
+              key={res.idVideo}
               cliente={res.cliente}
               escenario={res.escenario}
               linkVideo={res.linkVideo}
